@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SemiColonWeb" />
+
+    <!-- Stylesheets
+    ============================================= -->
+	<link href="http://fonts.useso.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="css/dark.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <!--[if lt IE 9]>
+    	<script src="js/css3-mediaqueries.js"></script>
+    <![endif]-->
+
+    <!-- External JavaScripts
+    ============================================= -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/plugins.js"></script>
+    <!--Polymer-->
+    <script src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
+    <link rel="import" href="components/header.html">
+    <link rel="import" href="components/footer.html">
+
+    <!-- Document Title
+    ============================================= -->
+	<title>登月舱|探索不一样的高中生活</title>
+
+</head>
+
+<body class="stretched">
+
+    <!-- Document Wrapper
+    ============================================= -->
+    <div id="wrapper" class="clearfix">
+
+        <!-- Header
+        ============================================= -->
+        <header id="header" class="no-sticky semi-transparent">
+
+            <div id="header-wrap">
+
+                <div class="container clearfix">
+
+                    <!-- Logo
+                    ============================================= -->
+                    <div id="logo">
+                        <a href="index.html" class="standard-logo" data-dark-logo="images/index/logo.png"><img src="images/index/logo.png" alt="Canvas Logo"></a>
+                        <a href="index.html" class="retina-logo" data-dark-logo="images/index/logo.png"><img src="images/index/logo.png" alt="Canvas Logo"></a>
+                    </div><!-- #logo end -->
+
+                    <div class="fright dark hidden-sm hidden-xs clearfix" style="margin-top: 30px;">
+
+                        <a href="#" data-toggle="modal" data-target="#contactFormModal" class="social-icon si-light si-email3">
+                            <i class="icon-email3"></i>
+                            <i class="icon-email3"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </header><!-- #header end -->
+
+        <section id="slider" class="full-screen dark" style="background: url(images/index/bg.jpg) center;">
+
+            <div class="container clearfix vertical-middle">
+
+                <div class="heading-block title-center nobottomborder">
+                    <h1>即将上线</h1>
+                    <h3>登月舱|探索不一样的高中生活</h3>
+                </div>
+
+                <div id="countdown-ex1" class="countdown countdown-large coming-soon divcenter bottommargin col-md-12" style="max-width:700px;">
+
+                </div>
+
+                <div class="progress progress-striped active topmargin divcenter" style="height: 10px; max-width:600px;">
+                    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                        <span class="sr-only">80% Complete</span>
+                    </div>
+                </div>
+
+                <script>
+                    jQuery(document).ready( function($){
+                        var newDate = new Date(2016, 3, 12);
+                        $('#countdown-ex1').countdown({until: newDate});
+                    });
+
+                </script>
+
+            </div>
+
+        </section>
+
+
+    </div><!-- #wrapper end -->
+<dom-footer></dom-footer>
+    <!-- Go To Top
+    ============================================= -->
+    <div id="gotoTop" class="icon-angle-up"></div>
+
+    <!-- Footer Scripts
+    ============================================= -->
+    <script type="text/javascript" src="js/functions.js"></script>
+
+</body>
+</html>
